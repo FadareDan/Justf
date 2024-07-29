@@ -1,3 +1,4 @@
+
 require("@nomicfoundation/hardhat-toolbox");
 
 module.exports = {
@@ -5,7 +6,7 @@ module.exports = {
   networks: {
     swisstronik: {
       url: "https://json-rpc.testnet.swisstronik.com/",
-      accounts: ["0x"], //Your private key starting with "0x"
+      accounts: [""], //Your private key starting with "0x"
     },
   },
 };
